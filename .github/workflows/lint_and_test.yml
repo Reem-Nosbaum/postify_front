@@ -17,12 +17,11 @@ jobs:
       - run: npm ci
       - uses: sibiraj-s/action-eslint@v2
         with:
-          eslint-args: "--ignore-path=.eslintignore"
-          extensions: "js,jsx,ts,tsx"
+          eslint-args: '--ignore-path=.eslintignore'
+          extensions: 'js,jsx,ts,tsx'
           annotations: true
 
   test:
-    needs: eslint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
