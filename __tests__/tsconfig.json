@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "compileOnSave": false,
-    "isolatedModules": false,
-    "baseUrl": "../src",
-    "importsNotUsedAsValues": "error",
-    "jsx": "preserve"
-  }
-}
