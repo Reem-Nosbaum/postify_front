@@ -1,0 +1,8 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "../src",
+    "importsNotUsedAsValues": "error",
+    "jsx": "preserve"
+  }
+}
