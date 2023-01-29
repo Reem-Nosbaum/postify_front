@@ -1,9 +1,9 @@
 import React from 'react'
 
-function App() {
+const App: React.FC = () => {
   return (
     <>first init!</>
-  );
+  )
 }
 
-export default App;
+export default App
